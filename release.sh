@@ -44,7 +44,7 @@ git push
 
 # Delete version branch locally and on remote
 git branch -D $version
-git push --quite origin --delete $version
+git push -q origin --delete $version
 
 # Success
 echo "-------------------------------------------------------------------------"
